@@ -8,10 +8,53 @@
   </head>
 
   <body>
-    <p>This is THE SCHEDULE page.</p>
-    <a href="/videoscheduler">
-        <button>CLICK HERE</button>
-    </a>
+    <div class="homepage scheduleBackground">
+        <a href="/videoscheduler" style="text-decoration: none;">
+            <div id="scheduleTitle">
+                <h1>YAAS</h1>
+            </div>
+        </a>
+        
+        <div class="centerText">
+            <div class="rowDirection">
+                <p>Channel ID:</p>
+                <input id="channel-input" placeholder="Enter text here">
+            </div>        
+        </div>
+        
+        <div class="centerText">
+            <div class="rowDirection">
+                <p>Series:</p>
+                <input id="series-input" placeholder="Enter text here">
+            </div>
+            
+            <div>
+                <p>Put N/A or ALL if you want all the videos from a particular channel.</p>
+                <p>Else put the name of the series title that you are interested in from a particular creator.</p>
+            </div>        
+        </div>
+        <button class="bigButton">ADD CHANNEL</button>
+        <table>
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+            <tr>
+                <td id="sundayCell">Empty</td>
+                <td id="mondayCell">Empty</td>
+                <td id="tuesdayCell">Empty</td>
+                <td id="wednesdayCell">Empty</td>
+                <td id="thursdayCell">Empty</td>
+                <td id="fridayCell">Empty</td>
+                <td id="saturdayCell">Empty</td>
+            </tr>
+        </table>
+    </div>
   </body>
 
 </html>

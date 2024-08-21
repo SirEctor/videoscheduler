@@ -3,8 +3,9 @@ html, body {
 }
 body {
     margin: 0;
+    background-color: #e7a5b6;
 }
-#homepage {
+.homepage {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -15,16 +16,50 @@ body {
     text-align: center;
 }
 
+.centerText{
+    text-align: center;
+    width: 100vw;
+}
+
+.rowDirection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 #yaasDesc1 {
     margin-bottom: 0;
 }
 #fullDesc {
     font-size: 1.5em;
 }
-#scheduleButton {
+
+.bigButton {
     font-size: 2em;
 }
 
 .yaasTitle{
     font-size: 4em;
+}
+
+#scheduleTitle{
+    font-size: 2em;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(235, 104, 141);
+}
+
+th {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    font-size: 2em;
 }
