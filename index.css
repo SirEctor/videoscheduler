@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+#homepage {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#yaasDesc1, #yaasDesc2 {
+    text-align: center;
+}
+
+#yaasDesc1 {
+    margin-bottom: 0;
+}
+#fullDesc {
+    font-size: 1.5em;
+}
+#scheduleButton {
+    font-size: 2em;
+}
+
+.yaasTitle{
+    font-size: 4em;
+}
